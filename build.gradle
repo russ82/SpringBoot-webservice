@@ -42,8 +42,8 @@ dependencies {
     testCompile("org.springframework.security:spring-security-test")
 }
 
-test {
+"""test {
     useJUnitPlatform {
         includeEngines 'junit-vintage'
     }
-}
+}"""
